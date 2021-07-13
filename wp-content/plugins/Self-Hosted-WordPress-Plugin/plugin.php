@@ -29,4 +29,6 @@ function test_page(){
 }
 
 function test_page_code() {
+
+	echo "Updated";
 }

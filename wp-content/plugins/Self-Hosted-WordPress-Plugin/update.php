@@ -13,11 +13,11 @@ $obj = new stdClass();
 $obj->slug = 'plugin.php';  
 $obj->name = 'Plugin';
 $obj->plugin_name = 'plugin.php';
-$obj->new_version = '1.1';
+$obj->new_version = '1.2';
 // the url for the plugin homepage
 $obj->url = 'https://github.com/ujjalpaul/wordpress-project/tree/master/wp-content/plugins/';
 //the download location for the plugin zip file (can be any internet host)
-$obj->package = 'https://github.com/ujjalpaul/wordpress-project/tree/master/wp-content/plugins/Self-Hosted-WordPress-Plugin.rar';
+$obj->package = 'https://github.com/ujjalpaul/wordpress-project/tree/master/wp-content/plugins/Self-Hosted-WordPress-Plugin.zip';
 
 switch ( $_POST['action'] ) {
 
