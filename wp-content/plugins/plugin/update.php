@@ -17,7 +17,7 @@ $obj->new_version = '2.2';
 // the url for the plugin homepage
 $obj->url = 'https://github.com/ujjalpaul/wordpress-project/tree/master/wp-content/plugins';
 //the download location for the plugin zip file (can be any internet host)
-$obj->package = 'https://github.com/ujjalpaul/wordpress-project/tree/master/wp-content/plugins/plugin.zip';
+$obj->package = 'https://localhost/wordpress/wp-content/uploads/plugin.zip';
 
 switch ( $_POST['action'] ) {
 
