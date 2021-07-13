@@ -13,7 +13,7 @@ $obj = new stdClass();
 $obj->slug = 'plugin.php';  
 $obj->name = 'Plugin';
 $obj->plugin_name = 'plugin.php';
-$obj->new_version = '1.2';
+$obj->new_version = '2.2';
 // the url for the plugin homepage
 $obj->url = 'https://github.com/ujjalpaul/wordpress-project/tree/master/wp-content/plugins';
 //the download location for the plugin zip file (can be any internet host)
@@ -29,7 +29,7 @@ case 'info':
 	$obj->requires = '4.0';  
 	$obj->tested = '4.0';  
 	$obj->downloaded = 12540;  
-	$obj->last_updated = '2012-10-17';  
+	$obj->last_updated = '2021-06-17';  
 	$obj->sections = array(  
 		'description' => 'The new version of the Auto-Update plugin',  
 		'another_section' => 'This is another section',  
